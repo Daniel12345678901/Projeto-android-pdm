@@ -1,1 +1,9 @@
+Modelo de Dados:
 
+    Crie uma classe Note para representar a nota.
+
+data class Note(
+    val id: String,
+    val title: String,
+    val content: String
+)
