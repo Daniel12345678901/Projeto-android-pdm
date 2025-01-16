@@ -49,3 +49,25 @@ Estrutura do Projeto
 
     Salvar e Carregar Notas:
         Implemente métodos para salvar e carregar notas usando SharedPreferences na MainActivity.
+
+Funcionalidades do Projeto
+
+    Adicionar Notas:
+        Descrição: Permite ao usuário adicionar novas notas com título e conteúdo.
+        Código Relacionado: Implementado na AddEditNoteActivity e acionado pelo FAB (FloatingActionButton) na MainActivity.
+
+    Listar Notas:
+        Descrição: Exibe todas as notas salvas em uma lista na tela principal.
+        Código Relacionado: Implementado na MainActivity utilizando um RecyclerView e um NotesAdapter.
+
+    Salvar Notas Localmente:
+        Descrição: As notas são salvas no armazenamento local utilizando SharedPreferences, garantindo que persistem entre sessões do aplicativo.
+        Código Relacionado: Métodos para salvar e carregar notas na MainActivity.
+
+    Editar Notas:
+        Descrição: Permite ao usuário editar o título e o conteúdo de notas existentes.
+        Código Relacionado: Implementado na AddEditNoteActivity, que reutiliza a lógica de adicionar notas para também editar.
+
+    Excluir Notas:
+        Descrição: Permite ao usuário excluir notas que não são mais necessárias.
+        Código Relacionado: Pode ser implementado adicionando uma funcionalidade de exclusão no NotesAdapter e na MainActivity.
